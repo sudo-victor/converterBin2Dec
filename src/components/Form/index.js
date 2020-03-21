@@ -58,7 +58,7 @@ export default function Form() {
             <Label>Binary Input</Label>
             <Input />
             <Button onClick={binToDec} id="buttonConv">
-                to convert
+                convert
             </Button>
             <Label>Decimal Output</Label>
             <BoxOutput />

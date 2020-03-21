@@ -11,8 +11,7 @@ export default function Input() {
     return (
         <Container
             type="text"
-            name=""
-            id=""
+            id="inputBin"
             value={objData.binaryInput}
             onChange={e =>
                 dispatch({ type: "UPDATE_BINARY", value: e.target.value })

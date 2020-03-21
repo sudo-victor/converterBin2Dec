@@ -25,6 +25,10 @@ export const Container = styled.div`
         div input {
             width: 100%;
         }
+
+        #inputBin:focus {
+            width: 91%;
+        }
     }
 `;
 
