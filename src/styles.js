@@ -9,6 +9,12 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Noto Sans', sans-serif;
         color: #f9f9f9;
     }
+
+    h1 {
+        margin: 15px;
+
+        color: #333;
+    }
 `;
 
 export const Container = styled.div`
@@ -24,7 +30,7 @@ export const Container = styled.div`
 
 export const Form = styled.form`
     width: 50%;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 5px 5px 30px 5px;
 
     background: #333;
@@ -35,6 +41,19 @@ export const Form = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        width: 95%;
+
+        input,
+        div {
+            width: 90%;
+        }
+
+        div input {
+            width: 100%;
+        }
+    }
 `;
 
 export const SpanError = styled.span`
@@ -71,8 +90,30 @@ export const Input = styled.input`
     }
 `;
 
+export const BoxOutput = styled.div`
+    width: 50%;
+    padding: 0;
+    position: relative;
+
+    img {
+        margin: 2px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+`;
+
 export const Output = styled(Input)`
+    width: 100%;
+    margin: 0;
+
     background: #fff;
+
+    &:focus {
+        width: 100%;
+        height: 40px;
+    }
 `;
 
 export const Button = styled.button`
@@ -86,10 +127,25 @@ export const Button = styled.button`
     background: tomato;
     font-weight: 700;
 
-    transition: all 800ms;
+    transition: all 300ms;
 
-    &:hover {
+    &:active {
         background: #f9f9f9;
         color: tomato;
     }
+`;
+
+export const SpanCopied = styled.span`
+    padding: 1px;
+    padding-right: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: tomato;
+    font-size: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    transition: all 300ms;
 `;
