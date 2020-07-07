@@ -10,3 +10,6 @@ A Binary to Decimal converter created with ReactJs
 <img src="./assets/snapshot.png"/>
 </p>
 
+## Techs
+- [ReactJS](https://github.com/facebook/react)
+- [Redux](https://redux.js.org/introduction/getting-started)
