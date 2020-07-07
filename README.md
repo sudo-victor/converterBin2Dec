@@ -11,5 +11,13 @@ A Binary to Decimal converter created with ReactJs
 </p>
 
 ## Techs
-- [ReactJS](https://github.com/facebook/react)
-- [Redux](https://redux.js.org/introduction/getting-started)
+
+- ⚛[ReactJS](https://github.com/facebook/react)
+- ♻️[Redux](https://redux.js.org/introduction/getting-started)
+- 💅🏿[Styled Components](https://styled-components.com/)
+
+## Getting Started
+
+- Clone this project```git clone https://github.com/sudo-victor/converterBin2Dec.git```
+- Install the dependencies```yarn```
+- Start the app```yarn start```
