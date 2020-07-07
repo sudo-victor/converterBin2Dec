@@ -13,7 +13,7 @@ A Binary to Decimal converter created with ReactJs
 ## Techs
 
 - ⚛[ReactJS](https://github.com/facebook/react)
-- ♻️[Redux](https://redux.js.org/introduction/getting-started)
+- 💾[Redux](https://redux.js.org/introduction/getting-started)
 - 💅🏿[Styled Components](https://styled-components.com/)
 
 ## Getting Started
