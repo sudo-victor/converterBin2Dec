@@ -18,6 +18,6 @@ A Binary to Decimal converter created with ReactJs
 
 ## Getting Started
 
-- Clone this project```git clone https://github.com/sudo-victor/converterBin2Dec.git```
-- Install the dependencies```yarn```
-- Start the app```yarn start```
+- Clone this repo ```git clone https://github.com/sudo-victor/converterBin2Dec.git```
+- Install the dependencies ```yarn```
+- Start the app ```yarn start```
