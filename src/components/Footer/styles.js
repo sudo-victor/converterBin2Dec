@@ -11,6 +11,8 @@ export const Container = styled.footer`
     justify-content: space-evenly;
     align-items: center;
 
+    cursor: default;
+
     ul {
         display: flex;
         flex-direction: column;

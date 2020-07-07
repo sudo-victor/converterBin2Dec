@@ -5,8 +5,17 @@ export const Container = styled.div`
     padding: 0;
     position: relative;
 
-    img {
+    div {
         margin: 2px;
+        width: 20px;
+        height: 20px;
+
+        background-color: #333;
+        border-radius: 2px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         position: absolute;
         top: 0;

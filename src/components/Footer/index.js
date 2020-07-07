@@ -6,12 +6,12 @@ export default function Footer() {
     return (
         <Container>
             <p>
-                feito por <strong> Victor de Souto</strong>
+                Developed by <strong> Victor de Souto</strong>
             </p>
             <ul>
                 <li>
                     <a
-                        href="https://github.com/VictorSouto-ux"
+                        href="https://github.com/sudo-victor"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

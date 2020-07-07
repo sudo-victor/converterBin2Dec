@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 50%;
-    margin: 40px auto;
+    margin: 80px auto;
     padding: 5px 5px 30px 5px;
 
     background: #333;
     border-radius: 5px;
-    box-shadow: 5px 5px 7px #333;
+    box-shadow: 0px 0px  5px #333;
 
     display: flex;
     flex-direction: column;

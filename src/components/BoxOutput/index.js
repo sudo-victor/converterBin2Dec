@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { FiCopy } from "react-icons/fi"
 
 import { Container, Output } from "./styles";
 
@@ -19,12 +20,9 @@ export default function BoxOutput() {
                 placeholder="decimal output"
             />
             <SpanCopied />
-            <img
-                src="https://image.flaticon.com/icons/svg/178/178921.svg"
-                alt="copy"
-                width="20"
-                id="copy"
-            />
+            <div id="copy">
+                <FiCopy color="#333" />
+            </div>
         </Container>
     );
 }
