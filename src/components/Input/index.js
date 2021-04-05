@@ -13,7 +13,7 @@ export default function Input() {
             id="inputBin"
             value={objData.binaryInput}
             onChange={e =>
-                dispatch({ type: "UPDATE_BINARY", value: e.target.value })
+                dispatch({ type: "UPDATE_BINARY", value: e.target.value.replace(/\s/g, '') })
             }
             placeholder="Type a number binary"
         />

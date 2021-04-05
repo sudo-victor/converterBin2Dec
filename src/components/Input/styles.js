@@ -12,10 +12,10 @@ export const Container = styled.input`
     box-shadow: 2px 2px 5px #222;
     color: #333;
 
-    transition: ease-in-out 500ms;
+    transition: ease 200ms;
 
     &:focus {
-        width: 51%;
-        height: 50px;
+        width: 50.5%;
+        height: 45px;
     }
 `;
