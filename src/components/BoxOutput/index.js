@@ -21,7 +21,7 @@ export default function BoxOutput() {
             />
             <SpanCopied />
             <div id="copy">
-                <FiCopy color="#333" />
+                <FiCopy color="#073B3A" />
             </div>
         </Container>
     );

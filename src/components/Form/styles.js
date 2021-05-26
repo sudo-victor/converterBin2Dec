@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 50%;
+    width: 30%;
     margin: 80px auto;
     padding: 5px 5px 30px 5px;
 
-    background: #333;
+    background: #0B6E4F;
     border-radius: 5px;
     box-shadow: 0px 0px  5px #333;
 
@@ -14,12 +14,17 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    #copy {
+        background: #0B6E4F;
+        cursor: pointer;
+    }
+
     @media (max-width: 768px) {
         width: 95%;
 
         input,
         div {
-            width: 90%;
+            width: 100%;
         }
 
         div input {
@@ -46,8 +51,9 @@ export const Button = styled.button`
     border: none;
     border-radius: 50px;
     color: #f5f5f5;
-    background: tomato;
+    background: #073B3A;
     font-weight: 700;
+    cursor: pointer;
 
     transition: all 300ms;
 

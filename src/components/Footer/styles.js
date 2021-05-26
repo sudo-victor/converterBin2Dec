@@ -5,7 +5,7 @@ export const Container = styled.footer`
     height: 70px;
     margin-top: auto;
 
-    background: tomato;
+    background: #073B3A;
 
     display: flex;
     justify-content: space-evenly;

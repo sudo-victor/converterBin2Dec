@@ -13,14 +13,14 @@ export const GlobalStyles = createGlobalStyle`
     h1 {
         margin: 15px;
 
-        color: #333;
+        color: #f9f9f9;
     }
 `;
 
 export const Container = styled.div`
     height: 100vh;
 
-    background: #f9f9f9;
+    background: #073B3A;
 
     display: flex;
     flex-direction: column;
