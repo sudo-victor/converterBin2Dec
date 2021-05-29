@@ -14,6 +14,8 @@ export const Container = styled.footer`
     cursor: default;
 
     ul {
+        margin: 25px 0;
+
         display: flex;
         flex-direction: column;
         font-size: 12px;
@@ -21,5 +23,9 @@ export const Container = styled.footer`
         li a {
             text-decoration: none;
         }
+    }
+
+    @media(max-width: 736px) {
+        flex-direction: column;
     }
 `;
